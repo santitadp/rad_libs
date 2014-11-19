@@ -1,2 +1,9 @@
-<h1>NewsEntries#show</h1>
-<p>Find me in app/views/news_entries/show.html.erb</p>
+<h3><%= @title %></h3>
+
+<p>
+<%= @state %> Gov. <%= @person %> declared <%= @thing_you_declare %> and activated the National Guard Monday in advance of a grand jury decision about whether a <%= @famous_person %> will be charged in the <%= @adjective %> of <%= @another_person %> in <%= @city %>.
+</p>
+
+<p>
+	<%= link_to "Back to Index", "/news_entries" %>
+</p>

@@ -1,7 +1,9 @@
 Rails.application.routes.draw do
-  get 'news_entries/index'
+  get 'pages', to: "pages#index", as: "pages"
 
-  get 'news_entries/show'
+  get 'news_entries', to: "news_entries#index", as: "news_index"
+
+  get 'news_entries/show', as: "news_entry"
 
   get 'news_entries/new'
 
