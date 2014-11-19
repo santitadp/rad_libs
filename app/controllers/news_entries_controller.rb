@@ -12,7 +12,7 @@ class NewsEntriesController < ApplicationController
   			city: "Smallville"
   		},
   		{
-  			tile: "Awesome Second Example",
+  			title: "Awesome Second Example",
   			person: "Ryan Seacrest",
   			thing_you_declare: "GREATNESS",
   			adjective: "hopping",

@@ -10,8 +10,24 @@
 		<%= text_field_tag :person %>
 	</div>
 	<div>
+		<%= label :thing_you_declare, "Declare something: " %>
+		<%= text_field_tag :thing_you_declare %>
+	</div>
+	<div>
+		<%= label :famous_person, "Famous person: " %>
+		<%= text_field_tag :famous_person %>
+	</div>
+	<div>
+		<%= label :adjective, "Adjective: " %>
+		<%= text_field_tag :adjective %>
+	</div>
+	<div>
+		<%= label :another_person, "Another person's name: " %>
+		<%= text_field_tag :another_person %>
+	</div>
+	<div>
 		<%= label :city, "City: " %>
 		<%= select_tag :city, options_for_select(["", "Smallville", "Gainsville"]) %>
 	</div>
-	<%= submit_tag("Show it!") %>
+		<%= submit_tag("Show it!") %>
 <% end %>
